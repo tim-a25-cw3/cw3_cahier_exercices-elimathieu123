@@ -1,0 +1,17 @@
+.mes-labo-reactifs {
+    background-color: var(--color-primary);
+}
+.swiper-slide {
+    height: 100%;
+    width: auto;
+    height: 40vh;
+}
+.js-swiper {
+    display: flex;
+    height: 65vh;
+    width: auto;
+    text-decoration: none;
+    .swiper-wrapper {
+        display: flex;
+    }
+}
