@@ -1,18 +1,45 @@
 .mes-labo-reactifs {
     background-color: var(--color-primary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 77px 0;
 }
 .swiper-slide {
     height: 100%;
     width: auto;
-    height: 40vh;
 }
 .js-swiper {
     display: flex;
-    height: 65vh;
+
     width: auto;
     text-decoration: none;
     overflow: hidden;
     .swiper-wrapper {
         display: flex;
+        margin-bottom: 49px;
     }
+}
+h2 {
+    margin-bottom: 115px;
+}
+
+.swiper-pagination {
+    position: static;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    text-align: center;
+    --swiper-pagination-color: var(--color-white);
+    --swiper-pagination-bullet-inactive-color: var(--color-black);
+    --swiper-pagination-bullet-height: 20px;
+    --swiper-pagination-bullet-width: 20px;
+
+    --swiper-pagination-bullet-border-radius: 0;
+}
+.swiper-pagination-bullet {
+    transform: rotate(45deg);
 }

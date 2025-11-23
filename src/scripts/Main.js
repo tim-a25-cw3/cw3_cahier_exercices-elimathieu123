@@ -13,6 +13,9 @@ class Main {
     const swiper = new Swiper('.js-swiper', {
       speed: 400,
       slidesPerView: 1,
+      pagination: {
+        el: '.swiper-pagination',
+      },
       grid: {
         rows: 1,
       },

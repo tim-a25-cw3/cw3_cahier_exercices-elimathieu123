@@ -1,3 +1,7 @@
+.section {
+    padding-bottom: 80px;
+    padding-top: 92px;
+}
 .cards {
     @media (width <= $breakpoint-md) {
         display: grid;
@@ -13,6 +17,32 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-md);
     align-items: center;
+    margin-bottom: 49px;
+
+    img {
+        border-radius: 16px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 32px;
+        font-family: 'Work Sans';
+        font-weight: 100;
+        span {
+            font-weight: bold;
+        }
+    }
+    a {
+        font-size: 16px;
+        background-color: var(--color-primary);
+        padding: 16px 15px;
+        border-radius: 100px;
+        color: var(--color-white);
+    }
+    .tag {
+        font-size: 18px;
+    }
     &:nth-child(odd) {
         .card__content {
             order: 1;
