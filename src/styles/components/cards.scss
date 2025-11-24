@@ -2,6 +2,13 @@
     padding-bottom: 80px;
     padding-top: 92px;
 }
+h2 {
+    margin-bottom: 110px;
+}
+span {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 100;
+}
 .cards {
     @media (width <= $breakpoint-md) {
         display: grid;
@@ -18,27 +25,38 @@
     gap: var(--spacing-md);
     align-items: center;
     margin-bottom: 49px;
+    font-family: 'Work Sans';
+    .card__content {
+        gap: 40px;
+    }
 
     img {
         border-radius: 16px;
     }
     h3 {
-        font-size: 16px;
+        font-size: typo(16px);
     }
     p {
-        font-size: 32px;
-        font-family: 'Work Sans';
+        font-size: typo(24px, 32px);
+        margin-bottom: 40px;
         font-weight: 100;
+        color: rgba(255, 255, 255, 0.55);
         span {
             font-weight: bold;
+            color: var(--color-white);
+            font-weight: 400px;
         }
     }
-    a {
+    .bouton {
         font-size: 16px;
+        font-weight: bold;
         background-color: var(--color-primary);
         padding: 16px 15px;
         border-radius: 100px;
-        color: var(--color-white);
+        color: var(--color-black);
+        .icone {
+            text-align: center;
+        }
     }
     .tag {
         font-size: 18px;

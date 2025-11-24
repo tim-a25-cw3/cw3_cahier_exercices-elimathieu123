@@ -5,6 +5,29 @@
     align-items: center;
     justify-content: center;
     padding: 77px 0;
+    color: var(--color-black);
+    .card {
+        p {
+            color: rgba(0, 0, 0, 0.55);
+            span {
+                color: var(--color-black);
+            }
+        }
+        .bouton {
+            background-color: var(--color-white);
+
+            color: var(--color-black);
+        }
+    }
+    h2 {
+        font-size: typo(30px, 40px);
+        margin-bottom: 115px;
+        span {
+            color: rgba(0, 0, 0, 0.55);
+
+            font-weight: 100;
+        }
+    }
 }
 .swiper-slide {
     height: 100%;
@@ -20,9 +43,6 @@
         display: flex;
         margin-bottom: 49px;
     }
-}
-h2 {
-    margin-bottom: 115px;
 }
 
 .swiper-pagination {
